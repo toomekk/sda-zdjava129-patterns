@@ -5,12 +5,18 @@ import java.util.UUID;
 class Person {
     private UUID uuid;
 
+    private String firstName;
+    private String lastName;
+
     public UUID getUuid() {
         return uuid;
     }
 
     public String getFirstName() {
         return firstName;
+    }
+    public static PersonBuilder builder(){
+        return  new PersonBuilder();
     }
 
     public Person(UUID uuid, String firstName, String lastName) {
@@ -22,8 +28,5 @@ class Person {
     public String getLastName() {
         return lastName;
     }
-
-    private String firstName;
-    private String lastName;
 
 }
