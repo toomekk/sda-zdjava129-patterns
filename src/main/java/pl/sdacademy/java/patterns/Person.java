@@ -13,6 +13,12 @@ class Person {
         return firstName;
     }
 
+    public Person(UUID uuid, String firstName, String lastName) {
+        this.uuid = uuid;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     public String getLastName() {
         return lastName;
     }
