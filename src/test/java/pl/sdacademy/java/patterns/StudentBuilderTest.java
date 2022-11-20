@@ -2,17 +2,20 @@ package pl.sdacademy.java.patterns;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.UUID;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 class StudentBuilderTest {
     @Test
     void shouldCreateStudent() {
         // when
-        Student student = new StudentBuilder()
+        Student student = Student.builder()
                 .groupCode("4a")
-                .person(new Person(UUID.randomUUID(), "Jan", "Kowalski"))
+                .person(
+                    Person.builder()
+                        .firstName("Jan")
+                        .lastName("Kowalski")
+                        .build()
+                )
                 .build();
 
         // then

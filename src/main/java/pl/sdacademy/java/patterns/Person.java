@@ -8,6 +8,10 @@ class Person {
     private String firstName;
     private String lastName;
 
+    public static PersonBuilder builder() {
+        return new PersonBuilder();
+    }
+
     public Person(UUID uuid, String firstName, String lastName) {
         this.uuid = uuid;
         this.firstName = firstName;
