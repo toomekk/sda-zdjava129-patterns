@@ -1,19 +1,27 @@
 package pl.sdacademy.java.patterns.grade.domain;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.patterns.grade.infrastructure.CsvGradesExporter;
 import pl.sdacademy.java.patterns.grade.infrastructure.DataLoaderGradeRepository;
 import pl.sdacademy.java.patterns.grade.infrastructure.GradeCsvLoader;
+import pl.sdacademy.java.patterns.grade.infrastructure.StringGradesExporter;
 
+import java.util.List;
 import java.util.UUID;
 
 class GradeExportServiceTest {
 
+    //not a real test - should use mocks
     @Test
     void shouldExport() {
         //given
         GradeExportService gradeExportService = new GradeExportService(
             new DataLoaderGradeRepository(
                 new GradeCsvLoader(()->GradeExportServiceTest.class.getResourceAsStream("/grades.csv"))
+            ),
+            List.of(
+                CsvGradesExporter.getInstance(),
+                StringGradesExporter.getInstance()
             )
         );
 
