@@ -1,4 +1,4 @@
-package pl.sdacademy.java.patterns.student;
+package pl.sdacademy.java.patterns.student.domain;
 
 import pl.sdacademy.java.patterns.person.Person;
 

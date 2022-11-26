@@ -1,15 +1,14 @@
 package pl.sdacademy.java.patterns.course;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import pl.sdacademy.java.patterns.common.CachingDataLoader;
-import pl.sdacademy.java.patterns.grade.DataLoaderGradeRepository;
-import pl.sdacademy.java.patterns.grade.GradeCsvLoader;
-import pl.sdacademy.java.patterns.grade.GradeRepository;
+import pl.sdacademy.java.patterns.grade.infrastructure.DataLoaderGradeRepository;
+import pl.sdacademy.java.patterns.grade.infrastructure.GradeCsvLoader;
+import pl.sdacademy.java.patterns.grade.domain.GradeRepository;
 
 import java.math.BigDecimal;
 import java.util.Optional;

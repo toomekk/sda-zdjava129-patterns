@@ -1,4 +1,6 @@
-package pl.sdacademy.java.patterns.grade;
+package pl.sdacademy.java.patterns.grade.domain;
+
+import pl.sdacademy.java.patterns.grade.domain.Grade;
 
 import java.util.List;
 import java.util.UUID;

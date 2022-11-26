@@ -1,6 +1,6 @@
 package pl.sdacademy.java.patterns.course;
 
-import pl.sdacademy.java.patterns.grade.Grade;
+import pl.sdacademy.java.patterns.grade.domain.Grade;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

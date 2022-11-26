@@ -1,6 +1,8 @@
-package pl.sdacademy.java.patterns.grade;
+package pl.sdacademy.java.patterns.grade.infrastructure;
 
 import pl.sdacademy.java.patterns.common.AbstractCsvLoader;
+import pl.sdacademy.java.patterns.grade.domain.Grade;
+import pl.sdacademy.java.patterns.grade.domain.GradeType;
 
 import java.io.InputStream;
 import java.math.BigDecimal;

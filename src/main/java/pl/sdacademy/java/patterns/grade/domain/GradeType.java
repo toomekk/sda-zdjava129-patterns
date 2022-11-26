@@ -1,4 +1,4 @@
-package pl.sdacademy.java.patterns.grade;
+package pl.sdacademy.java.patterns.grade.domain;
 
 public enum GradeType {
     HOMEWORK,

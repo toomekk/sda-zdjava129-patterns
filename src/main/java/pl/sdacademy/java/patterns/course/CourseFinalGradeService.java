@@ -1,7 +1,7 @@
 package pl.sdacademy.java.patterns.course;
 
-import pl.sdacademy.java.patterns.grade.Grade;
-import pl.sdacademy.java.patterns.grade.GradeRepository;
+import pl.sdacademy.java.patterns.grade.domain.Grade;
+import pl.sdacademy.java.patterns.grade.domain.GradeRepository;
 
 import java.math.BigDecimal;
 import java.util.List;

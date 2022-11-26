@@ -1,6 +1,7 @@
-package pl.sdacademy.java.patterns.student;
+package pl.sdacademy.java.patterns.student.infrastructure;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.patterns.student.domain.Student;
 
 import java.util.List;
 

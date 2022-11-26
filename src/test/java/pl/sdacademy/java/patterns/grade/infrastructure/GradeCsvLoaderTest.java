@@ -1,6 +1,7 @@
-package pl.sdacademy.java.patterns.grade;
+package pl.sdacademy.java.patterns.grade.infrastructure;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.patterns.grade.domain.Grade;
 
 import java.math.BigDecimal;
 import java.util.List;

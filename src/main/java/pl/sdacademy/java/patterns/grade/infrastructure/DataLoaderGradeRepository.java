@@ -1,6 +1,8 @@
-package pl.sdacademy.java.patterns.grade;
+package pl.sdacademy.java.patterns.grade.infrastructure;
 
 import pl.sdacademy.java.patterns.common.DataLoader;
+import pl.sdacademy.java.patterns.grade.domain.Grade;
+import pl.sdacademy.java.patterns.grade.domain.GradeRepository;
 
 import java.util.List;
 import java.util.UUID;

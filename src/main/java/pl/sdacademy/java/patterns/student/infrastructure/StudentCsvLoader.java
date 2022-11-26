@@ -1,7 +1,8 @@
-package pl.sdacademy.java.patterns.student;
+package pl.sdacademy.java.patterns.student.infrastructure;
 
 import pl.sdacademy.java.patterns.common.AbstractCsvLoader;
 import pl.sdacademy.java.patterns.person.Person;
+import pl.sdacademy.java.patterns.student.domain.Student;
 
 import java.io.InputStream;
 import java.util.UUID;
