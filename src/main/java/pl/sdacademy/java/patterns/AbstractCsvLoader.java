@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.function.Supplier;
 
-public abstract class AbstractCsvLoader<T> {
+public abstract class AbstractCsvLoader<T> implements DataLoader<T> {
     private final Supplier<InputStream> inputStreamSupplier;
 
     public AbstractCsvLoader(Supplier<InputStream> inputStreamSupplier) {

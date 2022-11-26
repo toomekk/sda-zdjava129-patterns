@@ -1,11 +1,10 @@
 package pl.sdacademy.java.patterns;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class StudentCsvLoaderTest {
     @Test
@@ -14,7 +13,7 @@ class StudentCsvLoaderTest {
         StudentCsvLoader studentCsvLoader = new StudentCsvLoader(()->StudentCsvLoaderTest.class.getResourceAsStream("/students.csv"));
 
         //when
-        List<Student> students = studentCsvLoader.loadStudents();
+        List<Student> students = studentCsvLoader.loadData();
 
         //then
         assertThat(students).hasSize(2);
