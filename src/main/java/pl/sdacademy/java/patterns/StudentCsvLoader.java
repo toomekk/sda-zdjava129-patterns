@@ -16,7 +16,7 @@ public class StudentCsvLoader {
         this.inputStreamSupplier = inputStreamSupplier;
     }
 
-    public List<Student> loadStudents (){
+    public List<Student> loadStudents() {
 
         try(BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(
