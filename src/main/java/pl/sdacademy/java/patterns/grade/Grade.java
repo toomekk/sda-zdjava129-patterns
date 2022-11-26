@@ -1,4 +1,4 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.grade;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

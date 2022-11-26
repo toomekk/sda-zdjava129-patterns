@@ -1,6 +1,8 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.teacher;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.patterns.person.Person;
+import pl.sdacademy.java.patterns.person.PersonBuilder;
 
 import java.util.UUID;
 
