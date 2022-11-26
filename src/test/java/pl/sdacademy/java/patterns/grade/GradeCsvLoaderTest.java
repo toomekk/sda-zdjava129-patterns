@@ -1,4 +1,4 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.grade;
 
 import org.junit.jupiter.api.Test;
 

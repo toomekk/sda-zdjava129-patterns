@@ -1,10 +1,10 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.person;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class PersonBuilderTest {
 

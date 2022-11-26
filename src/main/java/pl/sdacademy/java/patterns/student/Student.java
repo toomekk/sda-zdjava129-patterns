@@ -1,9 +1,12 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.student;
 
-class Student implements HasPerson {
+import pl.sdacademy.java.patterns.person.HasPerson;
+import pl.sdacademy.java.patterns.person.Person;
 
-    private Person person;
-    private String groupCode;
+public class Student implements HasPerson {
+
+    private final Person person;
+    private final String groupCode;
 
     public static StudentBuilder builder() {
         return new StudentBuilder();

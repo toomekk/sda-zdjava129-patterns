@@ -1,6 +1,7 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.student;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.patterns.person.Person;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

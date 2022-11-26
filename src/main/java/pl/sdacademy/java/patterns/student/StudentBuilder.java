@@ -1,4 +1,6 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.student;
+
+import pl.sdacademy.java.patterns.person.Person;
 
 public class StudentBuilder {
     private Person person;

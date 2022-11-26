@@ -1,4 +1,4 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.common;
 
 import java.io.BufferedReader;
 import java.io.IOException;

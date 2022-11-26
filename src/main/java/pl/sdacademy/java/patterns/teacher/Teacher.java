@@ -1,4 +1,7 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.teacher;
+
+import pl.sdacademy.java.patterns.person.HasPerson;
+import pl.sdacademy.java.patterns.person.Person;
 
 import java.util.Set;
 

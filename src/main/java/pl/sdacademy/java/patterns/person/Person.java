@@ -1,12 +1,12 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.person;
 
 import java.util.UUID;
 
-class Person {
+public class Person {
 
-    private UUID uuid;
-    private String firstName;
-    private String lastName;
+    private final UUID uuid;
+    private final String firstName;
+    private final String lastName;
 
     public static PersonBuilder builder() {
         return new PersonBuilder();

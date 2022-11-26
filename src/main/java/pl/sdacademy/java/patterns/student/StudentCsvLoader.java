@@ -1,4 +1,7 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.student;
+
+import pl.sdacademy.java.patterns.common.AbstractCsvLoader;
+import pl.sdacademy.java.patterns.person.Person;
 
 import java.io.InputStream;
 import java.util.UUID;

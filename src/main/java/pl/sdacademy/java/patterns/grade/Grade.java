@@ -1,14 +1,14 @@
-package pl.sdacademy.java.patterns;
+package pl.sdacademy.java.patterns.grade;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class Grade {
-    private UUID courseUuid;
-    private GradeType gradeType;
-    private BigDecimal value;
-    private LocalDateTime issueDateTime;
+    private final UUID courseUuid;
+    private final GradeType gradeType;
+    private final BigDecimal value;
+    private final LocalDateTime issueDateTime;
 
     public Grade(UUID courseUuid, GradeType gradeType, BigDecimal value, LocalDateTime issueDateTime) {
         this.courseUuid = courseUuid;
